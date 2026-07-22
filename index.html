@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKE Products | App Development・Consulting・Music Production</title>
+  <meta name="description" content="IKE Products（池宮政秀）は、アプリ開発・ITコンサルティング・楽曲制作を手がける個人事業です。App development, business consulting, and music production.">
+  <meta name="keywords" content="IKE Products, 池宮政秀, アプリ開発, ITコンサルティング, 楽曲制作, app development, consulting, music production">
+  <meta name="author" content="Masahide Ikemiya / IKE Products">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="IKE Products | App Development・Consulting・Music Production">
+  <meta property="og:description" content="アプリ開発・ITコンサルティング・楽曲制作を手がける IKE Products のポートフォリオサイト。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/banner.png">
+
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <noscript><style>.fade-in{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="IKE Products ホームへ">
+        <img src="assets/images/logo.png" alt="IKE Products logo" class="logo-mark">
+        <span class="logo-text">IKE <em>Products</em></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="テーマ切替" aria-pressed="false">
+          <span class="theme-icon theme-icon-sun" aria-hidden="true">☀️</span>
+          <span class="theme-icon theme-icon-moon" aria-hidden="true">🌙</span>
+        </button>
+        <button id="nav-toggle" class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <img src="assets/images/logo.png" alt="" class="hero-watermark" aria-hidden="true" loading="eager">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <p class="hero-eyebrow hero-anim" style="--anim-delay: 0s">IKE Products</p>
+        <h1 class="hero-title hero-anim" style="--anim-delay: 0.1s">IKE Products</h1>
+        <p class="hero-subtitle hero-anim" style="--anim-delay: 0.2s">App Development • Consulting • Music Production</p>
+        <div class="hero-cta hero-anim" style="--anim-delay: 0.3s">
+          <a href="#services" class="btn btn-primary">View Our Services</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <a href="#services" class="scroll-indicator" aria-label="次のセクションへスクロール">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <p class="section-eyebrow fade-in">What We Do</p>
+        <h2 class="section-title fade-in">Services</h2>
+
+        <div class="services-grid">
+          <article class="service-card fade-in">
+            <div class="service-icon" aria-hidden="true">📱</div>
+            <h3>App Development</h3>
+            <p>企画からリリースまで、Android / iOS アプリを一気通貫で開発。Kotlin / Flutter を用いたモバイルアプリ設計・実装・保守を行います。</p>
+          </article>
+
+          <article class="service-card fade-in">
+            <div class="service-icon" aria-hidden="true">💼</div>
+            <h3>Business Consulting</h3>
+            <p>IT導入・業務効率化・プロダクト戦略の壁打ちまで、事業のフェーズに合わせた実践的なコンサルティングを提供します。</p>
+          </article>
+
+          <article class="service-card fade-in">
+            <div class="service-icon" aria-hidden="true">🎵</div>
+            <h3>Music Production</h3>
+            <p>作曲・編曲・DTM制作。Cubase を用いた楽曲制作から、アプリ内サウンド・BGM制作まで幅広く対応します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <p class="section-eyebrow fade-in">Selected Work</p>
+        <h2 class="section-title fade-in">Portfolio</h2>
+
+        <div class="portfolio-grid">
+          <figure class="portfolio-item fade-in">
+            <img src="assets/images/portfolio-apps.jpg" alt="アプリ開発 — iOS / Android / Web。企画から実装・運用まで一気通貫で。" loading="lazy">
+          </figure>
+
+          <figure class="portfolio-item fade-in">
+            <img src="assets/images/portfolio-consulting.jpg" alt="ITコンサルティング — 課題の可視化から技術選定・DX推進まで伴走支援。" loading="lazy">
+          </figure>
+
+          <figure class="portfolio-item fade-in">
+            <img src="assets/images/portfolio-music.jpg" alt="楽曲制作 — 作曲・編曲からミックスまで。映像・アプリ向けの音も。" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-media fade-in">
+          <img src="assets/images/avatar.png" alt="IKE Products シンボルマーク" loading="lazy">
+        </div>
+        <div class="about-content fade-in">
+          <p class="section-eyebrow">About</p>
+          <h2 class="section-title">Profile</h2>
+          <h3 class="about-name">Masahide Ikemiya <span>池宮 政秀</span></h3>
+          <p class="about-role">Founder — App Development / IT Consulting / Music Production</p>
+          <p class="about-desc">
+            個人事業として、アプリ開発・ITコンサルティング・楽曲制作の3領域を横断しながら活動しています。
+            エンジニアリングとクリエイティブの両輪で、プロダクトの企画から実装、サウンドデザインまで一貫して支援するのが強みです。
+          </p>
+
+          <ul class="skills-list">
+            <li><span>Android / Kotlin</span></li>
+            <li><span>Flutter</span></li>
+            <li><span>IT Consulting</span></li>
+            <li><span>DTM / Cubase</span></li>
+            <li><span>UI / UX Design</span></li>
+            <li><span>Product Strategy</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <p class="section-eyebrow fade-in">Get in Touch</p>
+        <h2 class="section-title fade-in">Contact</h2>
+        <p class="contact-lead fade-in">お仕事のご相談・お問い合わせはお気軽にどうぞ。</p>
+
+        <a class="contact-email fade-in" href="mailto:ikeproducts.japan@gmail.com">ikeproducts.japan@gmail.com</a>
+
+        <div class="social-links fade-in">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.7 5.41-5.27 5.69.42.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.4 22h-7.1l-5.5-7.2L4.5 22H1.4l8.1-9.3L1 2h7.3l5 6.6L18.9 2Zm-1.2 18h1.7L7.4 4H5.6l12.1 16Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo footer-logo">
+        <img src="assets/images/logo.png" alt="IKE Products logo" class="logo-mark">
+        <span class="logo-text">IKE <em>Products</em></span>
+      </a>
+
+      <nav class="footer-nav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <p class="footer-copy">&copy; <span id="year"></span> IKE Products. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
